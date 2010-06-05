@@ -1,0 +1,29 @@
+# this enables the feed plugin
+plugins:flashbake.plugins.feed:Feed,flashbake.plugins.timezone:TimeZone,flashbake.plugins.weather:Weather
+plugins:flashbake.plugins.microblog:Twitter
+# these three lines are used by the feed plugin, see the Plugins page for more info
+feed_url:http://www.globalsecurity.org/globalsecurity-org.xml
+# author is optional
+# feed_author:Joe Random
+# limit is optional, defaults to 5 if unused
+feed_limit:3
+
+
+weather_city: columbus, oh
+
+
+twitter_user: tomhaney
+
+# this line is optional, omit it to disable email
+notice_to:haney270@gmail.com
+# alternately, if you set up an ssh tunnel, you can set this and send through
+# the tunnel
+#smtp_port:5002
+
+# hot files, a future version will support wild cards
+todo.txt
+my_novel.txt
+extra/character_notes.txt
+extra/story_bible.txt
+README
+
