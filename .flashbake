@@ -1,6 +1,6 @@
 # this enables the feed plugin
 plugins:flashbake.plugins.feed:Feed,flashbake.plugins.timezone:TimeZone,flashbake.plugins.weather:Weather
-plugins:flashbake.plugins.microblog:Twitter
+plugins:flashbake.plugins.microblog:Twitter,flashbake.plugins.music:Banshee
 # these three lines are used by the feed plugin, see the Plugins page for more info
 feed_url:http://www.globalsecurity.org/globalsecurity-org.xml
 # author is optional
